@@ -1,0 +1,25 @@
+"{
+  ""type"": ""indicator"",
+  ""spec_version"": ""2.1"",
+  ""id"": ""indicator--d36f1234-5a86-4a48-8d48-5ab2851c6d1c"",
+  ""created"": ""2022-10-05T08:15:30.000Z"",
+  ""modified"": ""2022-10-05T08:15:30.000Z"",
+  ""name"": ""Malware Sample Hash"",
+  ""description"": ""This indicator represents a malware sample with the SHA-256 hash value f38e3d3e935c83b16e6638f02b3577f4efea68e4c3d5dc5c5f5b5f15b06ebe68."",
+  ""pattern"": ""[file:hashes.'SHA-256' = 'f38e3d3e935c83b16e6638f02b3577f4efea68e4c3d5dc5c5f5b5f15b06ebe68']"",
+  ""pattern_type"": ""stix"",
+  ""valid_from"": ""2022-10-05T08:15:30.000Z"",
+  ""confidence"": 10,
+  ""labels"": [
+    ""<TAG1>"",
+    ""<TAG2>""
+  ],
+  ""x_government_score"": 1,
+  ""x_national_security_agency_score"": 1,
+  ""x_health_care_score"": 1,
+  ""x_energy_score"": 1,
+  ""x_telecom_score"": 1,
+  ""x_transportation_score"": 1,
+  ""x_financial_score"": 1,
+  ""x_other_enterprise_score"": 1
+}"
